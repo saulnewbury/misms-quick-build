@@ -1,0 +1,39 @@
+.topbar {
+  background-color: black;
+  height: 80px;
+
+  .topbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: var(--content-width);
+    height: 100%;
+
+    .m-logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav {
+      font-size: 20px;
+      font-weight: 300;
+      display: flex;
+      align-items: center;
+
+      a {
+        padding: 22.75px 38.5px;
+      }
+
+      span {
+        margin-left: 38.5px;
+        display: flex;
+        align-items: center;
+        img {
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+  }
+}

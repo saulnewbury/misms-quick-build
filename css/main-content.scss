@@ -1,0 +1,384 @@
+// -------------------------------------------------
+// HERO
+// -------------------------------------------------
+
+.hero {
+  height: 900px;
+  padding-top: 61px;
+  background-color: var(--blue);
+
+  .hero-inner {
+    margin: auto;
+    width: var(--content-width);
+    height: 839px;
+    border-top: 16px solid var(--white);
+    border-left: 16px solid var(--white);
+
+    .comp {
+      position: relative;
+      height: 724px;
+
+      .bathing {
+        position: absolute;
+        right: 63px;
+        bottom: 37px;
+      }
+
+      .misms-logo {
+        position: absolute;
+        bottom: 0;
+        left: 63px;
+        width: 881px;
+        width: 840px;
+      }
+    }
+  }
+}
+
+// -------------------------------------------------
+// SUMMARY
+// -------------------------------------------------
+
+.summary {
+  background-color: black;
+  color: var(--white);
+
+  .summary-inner {
+    padding: 147px 0;
+    border-left: 16px solid var(--white);
+    margin: auto;
+    width: var(--content-width);
+
+    p {
+      font-size: 36px;
+      margin-left: 107px;
+      width: 981px;
+    }
+  }
+}
+
+// -------------------------------------------------
+// GRAPH-ISH
+// -------------------------------------------------
+
+.graph-ish {
+  background-color: var(--blue);
+  height: 800px;
+
+  .graph-ish-inner {
+    border-left: 16px solid var(--white);
+    margin: auto;
+    width: var(--content-width);
+    height: 616;
+    padding-top: 58px;
+    margin-bottom: 218px;
+
+    .graph-mind,
+    .graph-body,
+    .graph-soul {
+      display: flex;
+      line-height: 76px;
+      align-items: center;
+      padding: 110px 0;
+      height: 68px;
+
+      .line {
+        height: 16px;
+        background: white;
+      }
+    }
+
+    // Mind
+    .graph-mind {
+      width: 310px;
+
+      .line {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+
+        .circle {
+          position: absolute;
+          right: -15px;
+          top: 8px; // half of line width
+          transform: translateY(-50%);
+          width: 72px;
+          height: 72px;
+          background-color: var(--white);
+          border-radius: 50%;
+        }
+        h3 {
+          font-size: 48px;
+          position: absolute;
+          right: -220px;
+          top: 10px;
+          transform: rotate(15deg);
+        }
+      }
+    }
+
+    // Body
+    .graph-body {
+      width: 600;
+
+      .line {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+
+        .triangle {
+          position: absolute;
+          right: -5px;
+          top: 8px; // half of line width
+          transform: translateY(-50%);
+          width: 192px;
+          height: 96px;
+          border: 34px solid rgba($color: #000000, $alpha: 0);
+          border: 48px solid rgba($color: #000000, $alpha: 0);
+          border-right: solid white 96px;
+        }
+        h3 {
+          font-size: 48px;
+          position: absolute;
+          right: -225px;
+          top: 10px;
+          transform: rotate(15deg);
+        }
+      }
+    }
+
+    // Soul
+    .graph-soul {
+      width: 934px;
+
+      .line {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+
+        .square {
+          position: absolute;
+          right: -5px;
+          top: 8px; // half of line width
+          transform: translateY(-50%) rotate(45deg);
+          width: 68px;
+          height: 68px;
+          background-color: var(--white);
+        }
+
+        h3 {
+          font-size: 48px;
+          font-weight: 400;
+          position: absolute;
+          right: -210px;
+          top: 10px;
+          transform: rotate(15deg);
+        }
+      }
+    }
+  }
+}
+
+// -------------------------------------------------
+// MIND
+// -------------------------------------------------
+
+.mind {
+  background-color: black;
+  height: max-content;
+
+  .mind-inner {
+    margin: auto;
+    width: var(--content-width);
+    padding-bottom: 320px;
+
+    .title {
+      margin-left: 220px;
+      position: relative;
+      top: -70px;
+      height: 425px;
+
+      .title-shape {
+        position: absolute;
+        width: 371px;
+        height: 371px;
+        border-radius: 50%;
+        background-color: hsl(22, 100%, 47%);
+
+        h2 {
+          position: absolute;
+          bottom: -18px;
+          left: -116px;
+          font-size: 64px;
+          transform: rotate(-26deg);
+        }
+      }
+    }
+    .text {
+      margin-left: calc(107px + 16px);
+      width: 981px;
+      p {
+      }
+    }
+  }
+}
+
+// -------------------------------------------------
+// BODY * * * * * * * *
+// -------------------------------------------------
+
+.body {
+  background-color: var(--blue);
+
+  .body-inner {
+    margin: auto;
+    width: var(--content-width);
+    padding-bottom: 320px;
+
+    .title {
+      margin-right: 220px;
+      margin-right: 180px;
+      position: relative;
+      top: -90px;
+      height: 425px;
+      display: flex;
+      justify-content: flex-end;
+
+      .title-shape {
+        position: absolute;
+
+        img {
+        }
+
+        h2 {
+          position: absolute;
+          top: 250px;
+          right: -148px;
+          font-size: 64px;
+          transform: rotate(26deg);
+        }
+      }
+    }
+
+    .text {
+      margin-left: calc(107px + 16px);
+      width: 981px;
+      p {
+      }
+    }
+  }
+}
+
+// -------------------------------------------------
+// SOUL
+// -------------------------------------------------
+
+.soul {
+  background-color: black;
+
+  .soul-inner {
+    margin: auto;
+    width: var(--content-width);
+    padding-bottom: 320px;
+
+    .title {
+      margin-left: 220px;
+      position: relative;
+      top: -60px;
+      height: 425px;
+
+      .title-shape {
+        position: absolute;
+        width: 353px;
+        height: 353px;
+        background-color: hsl(0, 68%, 45%);
+        transform: rotate(-45deg);
+
+        h2 {
+          position: absolute;
+          bottom: 100px;
+          left: -150px;
+          font-size: 64px;
+          transform: rotate(-26deg);
+        }
+      }
+    }
+
+    .text {
+      margin-left: calc(107px + 16px);
+      width: 981px;
+      p {
+      }
+    }
+  }
+}
+
+// -------------------------------------------------
+// FUNKY COMPOSITION
+// -------------------------------------------------
+
+.funky-comp {
+  height: 955px;
+  background-color: var(--blue);
+
+  .funky-comp-inner {
+    img {
+      margin: auto;
+      display: block;
+      padding-top: 215px;
+    }
+  }
+}
+
+// -------------------------------------------------
+// FOOTER
+// -------------------------------------------------
+
+footer {
+  height: 460px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+
+  .footer-inner {
+    height: max-content;
+    margin: auto;
+    width: 100%;
+    width: var(--content-width);
+    display: flex;
+
+    & > * {
+      height: 230px;
+    }
+
+    .m-logo {
+      display: flex;
+      align-items: center;
+      flex-basis: 28%;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      justify-content: space-between;
+
+      a {
+        width: max-content;
+        display: inline-block;
+        font-size: 20px;
+      }
+    }
+
+    .contact {
+      flex-shrink: 1;
+      justify-content: flex-end;
+      font-size: 24px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

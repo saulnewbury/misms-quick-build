@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Space+Grotesk:wght@300;400;500;600;700&family=Syncopate:wght@400;700&display=swap');
+
+html {
+  /* Main Colors */
+  --blue: hsl(216, 96%, 18%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --content-width: 1318px;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  letter-spacing: 6px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Oi', cursive;
+}
+
+p {
+  -webkit-font-smoothing: antialiased;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 400;
+}
+
+.summary p {
+  line-height: 46px;
+}
